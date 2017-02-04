@@ -1,0 +1,13 @@
+PODS:
+  - AMap2DMap (4.1.1):
+    - AMapFoundation (~> 1.1)
+  - AMapFoundation (1.1.0)
+
+DEPENDENCIES:
+  - AMap2DMap
+
+SPEC CHECKSUMS:
+  AMap2DMap: e69e7a598718bef0addeea41240646f5a045c41c
+  AMapFoundation: 15db20567e6512422a086a01b42a88b145bc2500
+
+COCOAPODS: 0.39.0
