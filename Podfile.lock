@@ -2,12 +2,24 @@ PODS:
   - AMap2DMap (4.1.1):
     - AMapFoundation (~> 1.1)
   - AMapFoundation (1.1.0)
+  - JSPatch (1.1.1):
+    - JSPatch/Core (= 1.1.1)
+  - JSPatch/Core (1.1.1)
+  - JSPatchPlatform (1.6.4):
+    - JSPatchPlatform/Core (= 1.6.4)
+  - JSPatchPlatform/Core (1.6.4):
+    - JSPatch
 
 DEPENDENCIES:
   - AMap2DMap
+  - JSPatchPlatform
 
 SPEC CHECKSUMS:
   AMap2DMap: e69e7a598718bef0addeea41240646f5a045c41c
   AMapFoundation: 15db20567e6512422a086a01b42a88b145bc2500
+  JSPatch: a4e4d28aef1dc17f4334d9e6bd590d7f0a0cd7b1
+  JSPatchPlatform: 7364e8341d4168e12f6c9c2997cecb9f357a61e3
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 4d193103d02f7955f17ed19c48bf502b857fb779
+
+COCOAPODS: 1.0.1

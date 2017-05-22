@@ -10,6 +10,7 @@
 #import "YJNavigationController.h"
 #import "MapViewController.h"
 #import "YJTabBarController.h"
+#import <JSPatchPlatform/JSPatch.h>
 
 @interface AppDelegate ()
 
@@ -35,6 +36,27 @@
     [self.window makeKeyAndVisible];
 
     
+    
+    
+    
+    
+    
+//    //============热修改==================
+//    
+//    [JSPatch startWithAppKey:@"a222de0428aeeeab"];
+//    
+//    
+//    //用来检测回调的状态，是更新或者是执行脚本之类的，相关信息，会打印在你的控制台
+//    [JSPatch setupCallback:^(JPCallbackType type, NSDictionary *data, NSError *error) {
+//        NSLog(@"%ld------%@-----%@",(long)type,data,error);
+//    }];
+//    
+//    //如果是选择“开发预览，这句代码很重要”
+//    [JSPatch setupDevelopment];
+//    
+//    //与 JSPatch 平台后台同步，询问是否有 patch 更新，如果有更新会自动下载并执行
+//    [JSPatch sync];
+//
     
     
     
